@@ -1,0 +1,244 @@
+                                   * {
+                                       font-family: 'Quicksand', sans-serif;
+                                       font-family: 'Raleway', sans-serif;
+                                       box-sizing: border-box;
+                                   }
+                                   /***** Base Styles *****/
+                                   
+                                   body {
+                                       background-color: #66bfbf;
+                                   }
+                                   
+                                   .name {
+                                       text-align: center;
+                                       padding: 20px;
+                                       font-family: 'Raleway', sans-serif;
+                                       font-size: 2em;
+                                       color: #056674;
+                                   }
+                                   
+                                   .main-nav {
+                                       padding: 0;
+                                   }
+                                   
+                                   .main-nav a {
+                                       display: block;
+                                       text-align: center;
+                                       background: #e0ece4;
+                                       margin-top: 6px;
+                                       margin-bottom: 6px;
+                                       list-style: none;
+                                   }
+                                   
+                                   .profile-image {
+                                       display: block;
+                                       margin-top: 70px;
+                                       margin-bottom: 35px;
+                                       margin-left: auto;
+                                       margin-right: auto;
+                                       width: 50%;
+                                   }
+                                   
+                                   p {
+                                       text-align: center;
+                                       color: #056674;
+                                       padding: 0;
+                                       font-family: 'Quicksand', sans-serif;
+                                       font-weight: 600;
+                                   }
+                                   
+                                   .portfolio {
+                                       color: #056674;
+                                       text-align: center;
+                                       margin: 30px 0 30px 0;
+                                       padding: 1em;
+                                   }
+                                   
+                                   h3 {
+                                       color: #056674;
+                                       text-align: center;
+                                       padding: 10px 0 10px 0;
+                                   }
+                                   
+                                   h4 {
+                                       color: #056674;
+                                       text-align: center;
+                                   }
+                                   
+                                   img {
+                                       width: 50%
+                                   }
+                                   /***** Skills*****/
+                                   
+                                   .skills {
+                                       text-align: center;
+                                       padding: 0;
+                                       margin: auto;
+                                   }
+                                   
+                                   .skills-li {
+                                       width: 60%;
+                                       margin: auto;
+                                       font-family: 'Quicksand', sans-serif;
+                                       font-weight: bold;
+                                       color: #056674;
+                                       text-align: center;
+                                       background: #e0ece4;
+                                       margin-top: 6px;
+                                       margin-bottom: 6px;
+                                       list-style: none;
+                                       border-radius: 20%;
+                                       padding: 10px;
+                                   }
+                                   
+                                   a:link {
+                                       text-decoration: none;
+                                   }
+                                   /***** Footer *****/
+                                   
+                                   .footer-name {
+                                       font-family: 'Raleway', sans-serif;
+                                       color: #056674;
+                                       float: left;
+                                       font-size: 1.5em;
+                                   }
+                                   
+                                   .footer-nav {
+                                       margin-top: 31.920px;
+                                       float: right;
+                                       list-style: none;
+                                   }
+                                   
+                                   .footer-a {
+                                       display: none;
+                                   }
+                                   
+                                   .back-to-top {
+                                       color: #056674;
+                                       font-family: 'Raleway', sans-serif;
+                                       font-size: 1.5em;
+                                       margin-left: 30px;
+                                       margin-top: 31.920px;
+                                       font-weight: bold;
+                                   }
+                                   /***** hover styles*****/
+                                   
+                                   a:link {
+                                       color: #056674;
+                                   }
+                                   
+                                   a:visited {
+                                       color: #056674;
+                                   }
+                                   
+                                   a:hover {
+                                       color: #ff4b5c;
+                                   }
+                                   
+                                   a:active {
+                                       color: #e0ece4;
+                                   }
+                                   /***** Container Styles *****/
+                                   
+                                   .container {
+                                       text-align: center;
+                                       padding-left: 1em;
+                                       padding-right: 1em;
+                                   }
+                                   
+                                   .content-cont {
+                                       text-align: center;
+                                       background-color: #e0ece4;
+                                       padding-bottom: 2em;
+                                   }
+                                   /***** Media Queries *****/
+                                   
+                                   @media (min-width: 768px) {
+                                       .main-nav {
+                                           text-align: center;
+                                       }
+                                       .main-nav a {
+                                           display: inline;
+                                           background: none;
+                                           font-weight: bold;
+                                           font-size: 1.5em;
+                                           margin: 0 1em 0 1em;
+                                       }
+                                       .profile {
+                                           margin-top: 40px;
+                                       }
+                                       .profile-image {
+                                           width: 50%;
+                                           float: right;
+                                           Margin: 0 auto 0 80px;
+                                       }
+                                       .bio {
+                                           font-size: 1.2em;
+                                       }
+                                       img {
+                                           width: 100%;
+                                       }
+                                       .container-1 {
+                                           float: left;
+                                           width: 50%;
+                                           padding: 10px;
+                                           min-height: 450px;
+                                       }
+                                       .container-2 {
+                                           float: right;
+                                           width: 50%;
+                                           padding: 10px;
+                                           min-height: 450px;
+                                       }
+                                       .contact {
+                                           border-bottom: .5px solid #056674;
+                                       }
+                                       .back-to-top {
+                                           display: none;
+                                       }
+                                       .footer-nav {
+                                           float: right;
+                                       }
+                                       .footer-a {
+                                           display: inline;
+                                           font-size: 1.5em;
+                                           font-weight: bold;
+                                           margin: 10px;
+                                       }
+                                       .clearfix::after {
+                                           content: "";
+                                           clear: both;
+                                           display: table;
+                                       }
+                                   }
+                                   
+                                   @media (min-width: 1024px) {
+                                       .name {
+                                           float: left;
+                                       }
+                                       .main-nav {
+                                           float: right;
+                                           padding: 20px 0 20px 20px;
+                                           margin: 26px 0 26px 26px;
+                                       }
+                                       .container-1 {
+                                           width: 100%;
+                                           display: flex;
+                                           flex-direction: row;
+                                           min-height: 420px;
+                                       }
+                                       .container-2 {
+                                           width: 100%;
+                                           display: flex;
+                                           flex-direction: row;
+                                           min-height: 420px;
+                                       }
+                                       .project-box {
+                                           width: 30%;
+                                           height: 300px;
+                                           margin: 0 20px;
+                                       }
+                                       .content-cont {
+                                           margin-bottom: 0px;
+                                       }
+                                   }
